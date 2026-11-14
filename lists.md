@@ -8,15 +8,17 @@
 
 - https://www.amazon.com/hz/wishlist/ls/112FJYSVEASO3/ref=cm_go_nav_hz
 
-## Ryan
+## Eva
 
-- https://www.amazon.com/hz/wishlist/ls/NCKRG6TZZ1J5?ref_=wl_share
+- https://www.giftster.com/list/iNUcN/
+- College savings: https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=75A-968
 
 ## Grant
 
-- https://www.amazon.com/hz/wishlist/ls/IZSXP3V7MEUE?ref_=wl_share
+- https://www.giftster.com/list/6nVb0/
+- College savings: https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=76K-P7S
 
-## Eva
+## Ryan
 
-- https://www.amazon.com/hz/wishlist/ls/38RV7VQNSCA4I?ref_=list_d_wl_ys_list_4
-- www.target.com/lists/shared/8470e380-b06d-11f0-baf3-1131ecd41fef?listSubType=CUSTOM
+- https://www.giftster.com/list/csPVk/
+- College savings: https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=C9T-B6D
