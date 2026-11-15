@@ -17,7 +17,7 @@
     <meta property="og:title" content="Wishlists for the Lemmon/Grahams" />
     <meta property="og:description" content="Gift ideas and college savings contributions for the family." />
     <meta property="og:url" content="https://lists.nicklemmon.com/" />
-    <meta property="og:image" content="https://lists.nicklemmon.com/social-card-v2.png" />
+    <meta property="og:image" content="https://lists.nicklemmon.com/social-card-v3.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -25,44 +25,103 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Wishlists for the Lemmon/Grahams" />
     <meta name="twitter:description" content="Gift ideas and college savings contributions for the family." />
-    <meta name="twitter:image" content="https://lists.nicklemmon.com/social-card-v2.png" />
+    <meta name="twitter:image" content="https://lists.nicklemmon.com/social-card-v3.png" />
     <meta name="twitter:image:alt" content="Wishlists for the Lemmon/Grahams. Gift ideas and college savings." />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>" />
     <link href="/src/style.css" rel="stylesheet" />
-    <style>
-      /* Custom scrollbar for better aesthetics */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      ::-webkit-scrollbar-thumb {
-        background-color: #cbd5e1;
-        border-radius: 20px;
-      }
-      .dark ::-webkit-scrollbar-thumb {
-        background-color: #334155;
-      }
-      .stagger-1 {
-        animation-delay: 100ms;
-      }
-      .stagger-2 {
-        animation-delay: 200ms;
-      }
-      .stagger-3 {
-        animation-delay: 300ms;
-      }
-      .stagger-4 {
-        animation-delay: 400ms;
-      }
-      .stagger-5 {
-        animation-delay: 500ms;
-      }
-    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
+    <div class="page">
+      <header class="site-header">
+        <a class="wordmark" href="/" aria-label="Wishlists for the Lemmon/Grahams home">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v8h14v-8M12 8v12"/><path d="M12 8H7.5A2.5 2.5 0 1 1 10 5.5L12 8Zm0 0h4.5A2.5 2.5 0 1 0 14 5.5L12 8Z"/></svg>
+          <span>Wishlists for the Lemmon/Grahams</span>
+        </a>
+        <label class="theme-control">
+          <span>Theme</span>
+          <span class="theme-select">
+            <select id="theme">
+              <option value="system">System</option>
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+        </label>
+      </header>
+      <main>
+        <section class="list-section kids" aria-labelledby="kids-heading">
+          <div class="section-heading">
+            <h2 id="kids-heading">Kids</h2>
+            <span>03 WISHLISTS</span>
+          </div>
+          <div class="cards">
+            <article class="wishlist-card" aria-label="Eva’s gift ideas">
+              <div class="monogram" aria-hidden="true">E</div>
+              <div class="card-title"><span class="card-eyebrow">Wishlists for</span><h3>Eva</h3></div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.giftster.com/list/iNUcN/" target="_blank" rel="noopener noreferrer" aria-label="View Eva’s wishlist (opens in a new tab)">View wishlist <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Giftster</span>
+              </div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=75A-968" target="_blank" rel="noopener noreferrer" aria-label="Contribute to Eva’s college savings (opens in a new tab)">Contribute to 529 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Ugift 529</span>
+              </div>
+            </article>
+            <article class="wishlist-card" aria-label="Grant’s gift ideas">
+              <div class="monogram" aria-hidden="true">G</div>
+              <div class="card-title"><span class="card-eyebrow">Wishlists for</span><h3>Grant</h3></div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.giftster.com/list/6nVb0/" target="_blank" rel="noopener noreferrer" aria-label="View Grant’s wishlist (opens in a new tab)">View wishlist <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Giftster</span>
+              </div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=76K-P7S" target="_blank" rel="noopener noreferrer" aria-label="Contribute to Grant’s college savings (opens in a new tab)">Contribute to 529 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Ugift 529</span>
+              </div>
+            </article>
+            <article class="wishlist-card" aria-label="Ryan’s gift ideas">
+              <div class="monogram" aria-hidden="true">R</div>
+              <div class="card-title"><span class="card-eyebrow">Wishlists for</span><h3>Ryan</h3></div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.giftster.com/list/csPVk/" target="_blank" rel="noopener noreferrer" aria-label="View Ryan’s wishlist (opens in a new tab)">View wishlist <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Giftster</span>
+              </div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=C9T-B6D" target="_blank" rel="noopener noreferrer" aria-label="Contribute to Ryan’s college savings (opens in a new tab)">Contribute to 529 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Ugift 529</span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="list-section adults" aria-labelledby="adults-heading">
+          <div class="section-heading">
+            <h2 id="adults-heading">Adults</h2>
+            <span>02 WISHLISTS</span>
+          </div>
+          <div class="cards">
+            <article class="wishlist-card" aria-label="Nick’s gift ideas">
+              <div class="monogram" aria-hidden="true">N</div>
+              <div class="card-title"><span class="card-eyebrow">Wishlists for</span><h3>Nick</h3></div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.amazon.com/hz/wishlist/ls/3INV57XVRHES?ref_=wl_share" target="_blank" rel="noopener noreferrer" aria-label="View Nick’s wishlist (opens in a new tab)">View wishlist <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Amazon</span>
+              </div>
+              <p class="card-note">(But I really just want 529 contributions for the kids!)</p>
+            </article>
+            <article class="wishlist-card" aria-label="Laurie’s gift ideas">
+              <div class="monogram" aria-hidden="true">L</div>
+              <div class="card-title"><span class="card-eyebrow">Wishlists for</span><h3>Laurie</h3></div>
+              <div class="card-bottom">
+                <a class="card-action" href="https://www.amazon.com/hz/wishlist/ls/112FJYSVEASO3/ref=cm_go_nav_hz" target="_blank" rel="noopener noreferrer" aria-label="View Laurie’s wishlist (opens in a new tab)">View wishlist <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                <span class="provider">Amazon</span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <p class="list-note"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v8h14v-8M12 8v12"/><path d="M12 8H7.5A2.5 2.5 0 1 1 10 5.5L12 8Zm0 0h4.5A2.5 2.5 0 1 0 14 5.5L12 8Z"/></svg> Wishlist links open on Amazon or Giftster. College savings links open on Ugift.</p>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
