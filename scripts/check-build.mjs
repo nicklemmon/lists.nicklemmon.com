@@ -13,7 +13,7 @@ assert.match(html, /<style>[\s\S]+<\/style>/);
 assert.ok(Buffer.byteLength(html) < 15_000, "Initial HTML must stay below 15 kB");
 assert.ok(gzipSync(html).length < 4_000, "Compressed HTML must stay below 4 kB");
 assert.equal((html.match(/<article\b/g) || []).length, 5);
-assert.equal((html.match(/target="_blank"/g) || []).length, 8);
+assert.equal((html.match(/target="_blank"/g) || []).length, 9);
 for (const code of ["75A-968", "76K-P7S", "C9T-B6D"]) {
   assert.ok(html.includes(`ugiftcode=${code}`));
 }
